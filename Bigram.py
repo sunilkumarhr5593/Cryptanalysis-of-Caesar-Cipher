@@ -1,5 +1,4 @@
 import pandas
-import itertools
 from math import log
 import math
 import numpy as np
@@ -46,7 +45,6 @@ shift = 12
 
 def encrypt(n, plaintext):                 # Function used for encryption to get cipher text
     result = ''
-
 # Since lower case alphabets is used as the plain text.
 # Here index of the input string will be considered and shift value will be added,
 # and performs modulo operation for encryption
